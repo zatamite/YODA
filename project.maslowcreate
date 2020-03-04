@@ -6,14 +6,44 @@
             "x": 0,
             "y": 0,
             "uniqueID": 168336,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input398676",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Input398676",
+                    "x": 0.09634949132256135,
+                    "y": 0.3715083798882681,
+                    "uniqueID": 191851,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2220227408737283,
+                    "y": 0.37988826815642457,
+                    "uniqueID": 977605,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1870,
-                    "y": 250,
+                    "x": 0.4093357271095152,
+                    "y": 0.37988826815642457,
                     "ioValues": []
                 }
             ],
@@ -21,5 +51,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "1.3"
 }
